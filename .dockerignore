@@ -1,0 +1,15 @@
+# Ignore common unnecessary files when building the Docker context
+.git
+.gitignore
+Dockerfile
+.dockerignore
+*.md
+*.log
+node_modules
+vendor
+bin
+*/bin
+*.exe
+*.test
+testdata/
+cmd/jsluice/testdata/
